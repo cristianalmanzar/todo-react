@@ -1,0 +1,74 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background: linear-gradient(to right, #00d2ff, #3a7bd5); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+hr {
+    border: 0 black;
+}
+
+ul {
+    list-style-type: none;
+    padding: 5px;
+}
+
+.header-container {
+    padding: 30px;
+    background:linear-gradient(#36fff57e,#96dedb0e), url("https://www.bumpylands.com/static/media/uploads/blog/tour/abroad/mountains.jpg");
+    background-size: cover;
+    
+}
+
+.item-container {
+    /* background-color: rgba(240, 248, 255, 0.8); */
+    background-color: white;
+    border-radius: 4px;
+    box-shadow: -11px 10px 5px 0px rgba(0,0,0,0.45);
+    color: black;
+    font-style: oblique;
+    font-weight: 100;
+    height: 300px;
+    margin: 30px;
+    padding: 20px;
+    width: 60%;
+}
+
+.item {
+    /* background-color: rgba(255, 255, 255, 0.548); */
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    padding: 5px;
+    /* border-radius: 6px; */
+    /* box-shadow: 0px 9px 5px -2px rgba(0,0,0,0.16); */
+}
+
+.title {
+    text-align: center;
+}
+
+.delete {
+    cursor: pointer;
+}
+.add-input {
+    width: 75%;
+    height: 15px;
+    color: black;
+    padding: 10px;
+    border: 1px;
+    font-size: 20px;
+    border-radius: 4px;
+    /* font-style: italic; */
+    box-shadow: 0px 9px 5px 0px rgba(0,0,0,0.66);
+}
+
+
+input:focus {outline:0;}
+
+.center{
+    display: flex;
+    justify-content: center;
+}
