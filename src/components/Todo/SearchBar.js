@@ -24,6 +24,7 @@ export const SearchBar = ({ className, placeholder, dispatch}) => {
         }
 
         dispatch(action);
+        setInput('');
 
     }
 
